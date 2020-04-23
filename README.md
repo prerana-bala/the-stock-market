@@ -55,7 +55,7 @@
             </nav>
         </div><div class="ticker">
   <div class="ticker__list">
-    <div class="ticker__item"><img src="assets/img/1.png"></div>
+    <div class="ticker__item"><img src="1.png"></div>
     <div class="ticker__item"><img src="assets/img/2.png"></div>
     <div class="ticker__item"><img src="assets/img/3.png"></div>
     <div class="ticker__item"><img src="assets/img/4.png"></div>
