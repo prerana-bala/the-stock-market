@@ -16,6 +16,32 @@
 </head>
 
 <body style="background-color: #ffffff;">
+    <style>
+        .simple-slider .swiper-slide {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+    display: none;
+  }
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-slide {
+    height: 360px;
+  }
+}
+    </style>
     <section class="text-center">
         <div>
             <nav class="navbar navbar-light navbar-expand-md">
@@ -380,6 +406,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
     <script src="assets/js/ticker.js"></script>
+    
 </body>
 
 </html>
