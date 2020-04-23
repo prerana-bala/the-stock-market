@@ -8,18 +8,43 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
-    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="Simple-Slider.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body style="background-color: #ffffff;">
+    <style>
+        .simple-slider .swiper-slide {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+    display: none;
+  }
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-slide {
+    height: 360px;
+  }
+}
+    </style>
     <section class="text-center">
         <div>
             <nav class="navbar navbar-light navbar-expand-md">
                 <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon text-nowrap d-flex justify-content-center align-items-center align-content-center"></span></button>
                     <img
-                        class="img-fluid" src="assets/img/logo.png">
+                        class="img-fluid" src="logo.png">
                         <div class="collapse navbar-collapse text-nowrap text-break justify-content-center" id="navcol-2"><a href="#">Home</a><a href="#" style="color: rgb(5,5,6);background-color: rgba(208,229,232,0);margin: 20px;font-size: 20px;">News</a><a href="#" style="margin: 20px;color: rgb(5,6,6);background-color: rgba(208,229,232,0);font-size: 20px;">Market</a>
                             <a
                                 href="#" style="background-color: rgba(208,229,232,0);color: rgb(5,5,6);font-size: 20px;">Mutual Funds</a><a href="#" style="font-size: 20px;color: #030303;background-color: rgba(208,229,232,0);margin: 20px;">Commodities</a><a href="#" style="font-size: 20px;color: #000000;background-color: rgba(208,229,232,0);margin: 20px;">Insurance</a></div>
@@ -27,25 +52,25 @@
             </nav>
         </div><div class="ticker">
   <div class="ticker__list">
-    <div class="ticker__item"><img src="assets/img/1.png"></div>
-    <div class="ticker__item"><img src="assets/img/2.png"></div>
-    <div class="ticker__item"><img src="assets/img/3.png"></div>
-    <div class="ticker__item"><img src="assets/img/4.png"></div>
-    <div class="ticker__item"><img src="assets/img/5.png"></div>
-    <div class="ticker__item"><img src="assets/img/5.5.png"></div>
-    <div class="ticker__item"><img src="assets/img/6.png"></div>
-    <div class="ticker__item"><img src="assets/img/8.png"></div>
-    <div class="ticker__item"><img src="assets/img/9.png"></div>
+    <div class="ticker__item"><img src="1.png"></div>
+    <div class="ticker__item"><img src="2.png"></div>
+    <div class="ticker__item"><img src="3.png"></div>
+    <div class="ticker__item"><img src="4.png"></div>
+    <div class="ticker__item"><img src="5.png"></div>
+    <div class="ticker__item"><img src="5.5.png"></div>
+    <div class="ticker__item"><img src="6.png"></div>
+    <div class="ticker__item"><img src="8.png"></div>
+    <div class="ticker__item"><img src="9.png"></div>
   </div>
 </div></section>
     <div class="simple-slider" style="height: 700PX;margin-bottom: 0PX;">
         <div class="swiper-container" style="height: 100%;">
             <div class="swiper-wrapper" style="background-color: rgba(221,232,234,0.35);height: 80%;">
                 <div class="text-center bounce animated swiper-slide" style="margin: 0px;margin-right: 0;margin-left: 0;padding: 87px;padding-right: 0;padding-left: 0;padding-top: 50PX;width: 50%;height: 80%;padding-bottom: 0PX;">
-                    <p style="font-size: 20px;">Covid-19 Cases India Statistics&nbsp;</p><img id="covid-final" class="rounded-lg mx-auto d-block img-fluid" src="assets/img/covid-final.png" style="min-width: 200px;width: 80%;height: 400PX;" alt="Responsive image"><a class="text-monospace text-justify"
+                    <p style="font-size: 20px;">Covid-19 Cases India Statistics&nbsp;</p><img id="covid-final" class="rounded-lg mx-auto d-block img-fluid" src="covid-final.png" style="min-width: 200px;width: 80%;height: 400PX;" alt="Responsive image"><a class="text-monospace text-justify"
                         href="#" style="font-size: 12px;">View more cities --&gt;</a></div>
                 <div class="swiper-slide" style="margin: 0px;margin-right: 0;margin-left: 0;padding-right: 10%;padding-left: 25%;padding-top: 10%;padding-bottom: 30%;">
-                    <div class="container"><img class="align-items-center" src="assets/img/drawing1.png" style="max-height: 400px;min-height: 150px;max-width: 100%;">
+                    <div class="container"><img class="align-items-center" src="drawing1.png" style="max-height: 400px;min-height: 150px;max-width: 100%;">
                         <hr><a href="#">A long time-India Bull falls in with the Bears - Cover Story Today</a></div>
                 </div>
                 <div class="swiper-slide" style="background-image:url(https://placeholdit.imgix.net/~text?txtsize=68&amp;txt=Slideshow+Image&amp;w=1920&amp;h=500);">
@@ -373,11 +398,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="s/js/jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-    <script src="assets/js/Simple-Slider.js"></script>
-    <script src="assets/js/ticker.js"></script>
+    <script src="Simple-Slider.js"></script>
+    <script src="ticker.js"></script>
+    
 </body>
 
 </html>
