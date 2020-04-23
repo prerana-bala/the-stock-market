@@ -56,24 +56,24 @@
         </div><div class="ticker">
   <div class="ticker__list">
     <div class="ticker__item"><img src="1.png"></div>
-    <div class="ticker__item"><img src="assets/img/2.png"></div>
-    <div class="ticker__item"><img src="assets/img/3.png"></div>
-    <div class="ticker__item"><img src="assets/img/4.png"></div>
+    <div class="ticker__item"><img src="2.png"></div>
+    <div class="ticker__item"><img src="3.png"></div>
+    <div class="ticker__item"><img src="4.png"></div>
     <div class="ticker__item"><img src="assets/img/5.png"></div>
-    <div class="ticker__item"><img src="assets/img/5.5.png"></div>
-    <div class="ticker__item"><img src="assets/img/6.png"></div>
-    <div class="ticker__item"><img src="assets/img/8.png"></div>
-    <div class="ticker__item"><img src="assets/img/9.png"></div>
+    <div class="ticker__item"><img src="5.5.png"></div>
+    <div class="ticker__item"><img src="6.png"></div>
+    <div class="ticker__item"><img src="8.png"></div>
+    <div class="ticker__item"><img src="9.png"></div>
   </div>
 </div></section>
     <div class="simple-slider" style="height: 700PX;margin-bottom: 0PX;">
         <div class="swiper-container" style="height: 100%;">
             <div class="swiper-wrapper" style="background-color: rgba(221,232,234,0.35);height: 80%;">
                 <div class="text-center bounce animated swiper-slide" style="margin: 0px;margin-right: 0;margin-left: 0;padding: 87px;padding-right: 0;padding-left: 0;padding-top: 50PX;width: 50%;height: 80%;padding-bottom: 0PX;">
-                    <p style="font-size: 20px;">Covid-19 Cases India Statistics&nbsp;</p><img id="covid-final" class="rounded-lg mx-auto d-block img-fluid" src="assets/img/covid-final.png" style="min-width: 200px;width: 80%;height: 400PX;" alt="Responsive image"><a class="text-monospace text-justify"
+                    <p style="font-size: 20px;">Covid-19 Cases India Statistics&nbsp;</p><img id="covid-final" class="rounded-lg mx-auto d-block img-fluid" src="covid-final.png" style="min-width: 200px;width: 80%;height: 400PX;" alt="Responsive image"><a class="text-monospace text-justify"
                         href="#" style="font-size: 12px;">View more cities --&gt;</a></div>
                 <div class="swiper-slide" style="margin: 0px;margin-right: 0;margin-left: 0;padding-right: 10%;padding-left: 25%;padding-top: 10%;padding-bottom: 30%;">
-                    <div class="container"><img class="align-items-center" src="assets/img/drawing1.png" style="max-height: 400px;min-height: 150px;max-width: 100%;">
+                    <div class="container"><img class="align-items-center" src="drawing1.png" style="max-height: 400px;min-height: 150px;max-width: 100%;">
                         <hr><a href="#">A long time-India Bull falls in with the Bears - Cover Story Today</a></div>
                 </div>
                 <div class="swiper-slide" style="background-image:url(https://placeholdit.imgix.net/~text?txtsize=68&amp;txt=Slideshow+Image&amp;w=1920&amp;h=500);">
@@ -401,7 +401,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="s/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
