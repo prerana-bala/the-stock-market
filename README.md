@@ -10,9 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
-    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="Simple-Slider.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body style="background-color: #ffffff;">
@@ -47,7 +46,7 @@
             <nav class="navbar navbar-light navbar-expand-md">
                 <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon text-nowrap d-flex justify-content-center align-items-center align-content-center"></span></button>
                     <img
-                        class="img-fluid" src="assets/img/logo.png">
+                        class="img-fluid" src="logo.png">
                         <div class="collapse navbar-collapse text-nowrap text-break justify-content-center" id="navcol-2"><a href="#">Home</a><a href="#" style="color: rgb(5,5,6);background-color: rgba(208,229,232,0);margin: 20px;font-size: 20px;">News</a><a href="#" style="margin: 20px;color: rgb(5,6,6);background-color: rgba(208,229,232,0);font-size: 20px;">Market</a>
                             <a
                                 href="#" style="background-color: rgba(208,229,232,0);color: rgb(5,5,6);font-size: 20px;">Mutual Funds</a><a href="#" style="font-size: 20px;color: #030303;background-color: rgba(208,229,232,0);margin: 20px;">Commodities</a><a href="#" style="font-size: 20px;color: #000000;background-color: rgba(208,229,232,0);margin: 20px;">Insurance</a></div>
@@ -59,7 +58,7 @@
     <div class="ticker__item"><img src="2.png"></div>
     <div class="ticker__item"><img src="3.png"></div>
     <div class="ticker__item"><img src="4.png"></div>
-    <div class="ticker__item"><img src="assets/img/5.png"></div>
+    <div class="ticker__item"><img src="5.png"></div>
     <div class="ticker__item"><img src="5.5.png"></div>
     <div class="ticker__item"><img src="6.png"></div>
     <div class="ticker__item"><img src="8.png"></div>
@@ -402,10 +401,10 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="s/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-    <script src="assets/js/Simple-Slider.js"></script>
-    <script src="assets/js/ticker.js"></script>
+    <script src="Simple-Slider.js"></script>
+    <script src="ticker.js"></script>
     
 </body>
 
